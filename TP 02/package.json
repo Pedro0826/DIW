@@ -1,0 +1,15 @@
+
+{
+  "name": "movie-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node start-server.js",
+    "start-all": "node start-all.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

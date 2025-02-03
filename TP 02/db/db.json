@@ -1,0 +1,42 @@
+{
+  "autor": {
+    "id": 1,
+    "nome": "Pedro Vitor Martins Caiafa Andrade",
+    "avatar": "assets/IMG/eu.jpg",
+    "minibio": "Estou ainda entrando neste mundo de programação e com a mente aberta para novos aprendizados!!!",
+    "curso": "Engenharia de Computação",
+    "email": "pedrovitor0826@gmail.com",
+    "turma": "2º Semestre",
+    "redes_sociais": {
+      "facebook": "https://www.facebook.com/",
+      "twitter": "https://x.com/home",
+      "instagram": "https://www.instagram.com/pedro0826/"
+    }
+  },
+  "favoritas": [
+    {
+      "id": 1399,
+      "name": "Game of Thrones",
+      "poster_path": "/l2ezB41chGDjXcKo24lseuXYtKP.jpg",
+      "overview": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto."
+    },
+    {
+      "id": 1396,
+      "name": "Breaking Bad: A Química do Mal",
+      "poster_path": "/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg",
+      "overview": "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos."
+    },
+    {
+      "id": 77169,
+      "name": "Cobra Kai",
+      "poster_path": "/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg",
+      "overview": "Nesta aclamada série que é continuação dos filmes Karatê Kid, Daniel e Johnny retomam a rivalidade dos tempos de escola."
+    },
+    {
+      "id": 66732,
+      "name": "Stranger Things",
+      "poster_path": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+      "overview": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina."
+    }
+  ]
+}

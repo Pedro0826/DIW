@@ -1,0 +1,43 @@
+/*
+  body {
+  background-color: #111111; /* Azul Claro 
+}
+
+.card-group {
+  margin-top: 40px;
+}
+
+.filter-bar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.carousel-image {
+  width: 60%; /* Altere o valor para o tamanho desejado 
+  height: auto;
+  margin: auto; Centraliza a imagem 
+  display: block;
+}
+      
+
+      
+
+      .card-img-custom {
+        width: 50%; /* Defina a largura desejada 
+        height: auto; /* Para manter a proporção da imagem 
+        object-fit: cover; /* Mantém a proporção da imagem, mesmo se for cortada 
+        margin: 0 auto;  Centraliza a imagem horizontalmente
+    }
+
+    .card-img-top {
+      width: 80%; /* Garante que a imagem ocupe toda a largura do card 
+      height: px; /* Define uma altura fixa 
+      object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente para preencher o espaço 
+      border-radius: 5px; /* Deixa as bordas da imagem levemente arredondadas 
+    }
+    
+    .card {
+      margin: 20px; /* Adiciona espaçamento entre os cards 
+    }
+    */
