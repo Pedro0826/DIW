@@ -1,0 +1,33 @@
+body {
+  background-color: #ffffff; /* Azul Claro */
+}
+
+.card-group {
+  margin-top: 20px;
+}
+
+.filter-bar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.carousel-image {
+  width: 50%; /* Altere o valor para o tamanho desejado */
+  height: auto;
+  margin: auto;/* Centraliza a imagem */
+  display: block;
+}
+      
+
+      .card-img-top {
+        width: 10%; 
+        height: auto; 
+      }
+
+      .card-img-custom {
+        width: 100%; /* Defina a largura desejada */
+        height: auto; /* Para manter a proporção da imagem */
+        object-fit: cover; /* Mantém a proporção da imagem, mesmo se for cortada */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }

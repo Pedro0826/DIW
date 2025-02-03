@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <!-- Link do Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Cabeçalho com logo e menu de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- Logo -->
+          <a href="index.html">
+          <img src="assets/IMG/logo.webp" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+          Movie Mark
+        </a>
+
+        <!-- Botão para colapsar o menu em telas menores -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu de Navegação -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto"> <!-- ms-auto para alinhar à direita -->
+            <li class="nav-item">
+              <a class="nav-link" href="explorer.html">Explorar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <h4>Destaques:</h4>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="BB.html">
+            <img src="assets/IMG/BB.webp" class="card-img-top" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Breaking Bad</h5>
+            <p>Um professor de química diagnosticado com câncer de pulmão se transforma em fabricante e vendedor de metanfetamina.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="GOT.html">
+            <img src="assets/IMG/GOT.webp" class="card-img-top" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Game of Thrones</h5>
+            <p>Nove famílias nobres lutam pelo controle sobre as terras de Westeros, enquanto um inimigo antigo retorna.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="CK.html">
+            <img src="assets/IMG/CK.webp" class="card-img-top" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cobra Kai</h5>
+            <p>Décadas após o All Valley Karate Tour de 1984, Johnny Lawrence busca redenção contra Daniel LaRusso.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próxima</span>
+      </button>
+    </div>
+
+    
+  <!-- 2 parte -->
+  <h2> Novas Series </h2>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <div class="card">
+          <a href="PIN.html">
+          <img src="assets/IMG/PIG.webp" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Pinguim</h5>
+            <p class="card-text">Após a queda dos Carmines, Oswald “Oz” Cobb está pronto para assumir o controle de Gotham e dar à sua mãe a vida que ele sempre lhe prometeu. Mas primeiro, 
+              ele terá de enfrentar inimigos novos e antigos, além do seu tão odiado apelido O Pinguim que não tornará o caminho deste gangster tão fácil.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <a href="SA.html">
+          <img src="assets/IMG/MONS.webp" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">O Senhor dos Anéis: Os Anéis de Poder (Segunda Temporada)</h5>
+            <p class="card-text">Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrenta o ressurgimento do mal na Terra-média. 
+              Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa, 
+              esses reinos e personagens criarão legados que permanecerão vivos muito além de suas partidas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <a href="AGA.html">
+          <img src="assets/IMG/AGA.webp" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Agatha Desde Sempre</h5>
+            <p class="card-text">A infame Agatha Harkness encontra-se sem poderes depois de um jovem gótico suspeito ajudá-la a se libertar de um feitiço distorcido. 
+            Ela se mostra interessada quando ele pede que seja levado ao lendário Caminho das Bruxas, um caminho mágico de provações que recompensará a bruxa sobrevivente com o que lhe falta.
+            Juntos, Agatha e esse misterioso Jovem reúnem um coven desesperado e partem para o Caminho...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <a href="P2.html">
+          <img src="assets/IMG/FROM.webp" class="card-img-top" alt="...">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Pisque Duas Vezes</h5>
+            <p class="card-text">Desvende o mistério de uma cidade no centro dos EUA. Enquanto os moradores lutam para manter um senso de normalidade, eles também devem sobreviver às ameaças da floresta ao redor, incluindo as criaturas aterrorizantes que surgem quando o sol se põe.</p>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Seção de Informações do Aluno(a) -->
+    <section class="info-aluno">
+      <h2>Informações do(a) Aluno(a)</h2>
+      <div class="content">
+          <!-- Coluna de texto sobre -->
+          <div class="sobre">
+              <h3>Estou ainda entrando neste mundo de programação e com a mente aberta para novos apredizados!!!</h3>
+              <div class="placeholder">
+                  <p></p>
+                  <p></p>
+                  <p></p>
+              </div>
+          </div>
+
+          <!-- Coluna de autoria e redes sociais -->
+          <div class="autoria">
+              <h3>Autoria</h3>
+              <ul>
+                  <li><strong>Aluno:</strong> Pedro Vitor Caiafa</li>
+                  <li><strong>Curso:</strong> Engenharia de Computação</li>
+                  <li><strong>Turma:</strong> Manhã</li>
+              </ul>
+              <h4>Redes Sociais:</h4>
+              <div class="social-icons">
+                <!-- Ícone e link do Facebook -->
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="assets/IMG/FACE.webp" alt="Facebook" style="width:30px;">
+                </a>
+                <!-- Ícone e link do Twitter -->
+                <a href="https://twitter.com" target="_blank">
+                    <img src="assets/IMG/X.webp" alt="Twitter" style="width:30px;">
+                </a>
+                <!-- Ícone e link do Instagram -->
+                <a href="https://instagram.com" target="_blank">
+                    <img src="assets/IMG/INST.webp" alt="Instagram" style="width:30px;">
+                </a>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <h2> </h2>
+  <h2> Series Favoritas </h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      
+      <div class="card">
+        <a href="BB.html">
+        <img src="assets/IMG/BB.webp" class="card-img-top" alt="...">
+      </a>
+        <div class="card-body">
+          <h5 class="card-title">Breaking Bad</h5>
+          <p class="card-text">Um professor de química diagnosticado com câncer de pulmão se transforma em fabricante e vendedor de metanfetamina.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="GOT.html">
+        <img src="assets/IMG/GOT.webp" class="card-img-top" alt="...">
+      </a>
+        <div class="card-body">
+          <h5 class="card-title">Game of Thrones</h5>
+          <p class="card-text">Nove famílias nobres lutam pelo controle sobre as terras de Westeros, enquanto um inimigo antigo retorna.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="CK.html">
+        <img src="assets/IMG/CK.webp" class="card-img-top" alt="...">
+      </a>
+        <div class="card-body">
+          <h5 class="card-title">Cobra Kai</h5>
+          <p class="card-text">Décadas após o All Valley Karate Tour de 1984, Johnny Lawrence busca redenção contra Daniel LaRusso.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="ST.html">
+        <img src="assets/IMG/ST.webp" class="card-img-top" alt="...">
+      </a>
+        <div class="card-body">
+          <h5 class="card-title">Stranger Things</h5>
+          <p class="card-text">Depois do desaparecimento de un menino, sua mãe, um chefe de polícia e seus amigos precisam enfrentar forças aterrorizantes para trazê-lo de volta.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="INV.html">
+        <img src="assets/IMG/TB.webp" class="card-img-top" alt="...">
+      </a>
+        <div class="card-body">
+          <h5 class="card-title">The Boys</h5>
+          <p class="card-text">Um grupo de vigilantes são dados o trabalho de deter super heroís que abusam da suas potências.</p>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="RUP.html">
+        <img src="assets/IMG/RUP.webp" class="card-img-top" alt="...">
+      </a>
+        <div class="card-body">
+          <h5 class="card-title">Ruptura</h5>
+          <p class="card-text">Lumen Industries, uma empresa que busca levar o equilíbrio entre trabalho e vida a um novo nível.</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
